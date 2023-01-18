@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+nav {
+    background: #e98635;
+    flex:1;
+}
+.container {
+    background: #cf772f;
+    flex:3;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box {
+    background: #fff;
+    width: 30%;
+    height: 100px;
+    border: 10px solid green;
+}
+footer {
+    background: #ac6429;
+    flex: 1.5;
+}
